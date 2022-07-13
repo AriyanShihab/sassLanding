@@ -1,0 +1,48 @@
+@media (max-width: 980px) {
+    .row-head {
+        font-size: 1.8rem;
+    }
+    .top-row h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .logo-holder {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .logo-holder img {
+        width: 70%;
+    }
+    .banner {
+        padding-bottom: 1rem;
+    }
+    .top-row {
+        padding: 1rem 0.5rem;
+        margin: 1rem 0;
+    }
+    .top-row h1 {
+        font-size: 2rem;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .flex {
+        flex-direction: column-reverse;
+    }
+    .business-right {
+        max-width: 100%;
+    }
+    .business-left::after {
+        max-width: 80vw;
+        max-height: 80vw;
+        left: 10%;
+        top: 10%;
+    }
+}
